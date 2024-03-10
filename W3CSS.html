@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            text-align: center;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 60%;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        h1.animated {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="animated">Virsraksts</h1>
+    <table>
+        <tr>
+            <th>Kolonna 1</th>
+            <th>Kolonna 2</th>
+        </tr>
+        <tr>
+            <td>Rinda 1, Kolonna 1</td>
+            <td>Rinda 1, Kolonna 2</td>
+        </tr>
+        <tr>
+            <td>Rinda 2, Kolonna 1</td>
+            <td>Rinda 2, Kolonna 2</td>
+        </tr>
+        <!-- Papildu rindas pēc nepieciešamības -->
+    </table>
+</body>
+</html>
